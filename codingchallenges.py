@@ -21,9 +21,7 @@ correct=input("Please enter 'Y' (yes) or 'N' (no), regarding the accuracy of you
 
 #Response to detail check
 print("")
-if correct == 'Y':
-    print("Thank you for registering with us! We hope you enjoy your stay!")
-else:
+while correct == 'N':
     print("Please re-enter your registration details")
     age=int(input("Please enter your age: "))
     gender=str(input("Please enter your gender: "))
@@ -39,4 +37,8 @@ else:
     print("Player name=",playerName)
     print("")
     correct=input("Please enter; 'Y' (yes) or 'N' (no), regarding the accuracy of your registration details: ").upper()
+
+#Thank you note
+print("Thank you for registering with us! We hope you enjoy your stay!")
+
 
