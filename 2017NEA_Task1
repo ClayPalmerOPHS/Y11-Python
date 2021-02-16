@@ -1,0 +1,44 @@
+correct = 'N'
+
+print("League registration")
+print("")
+
+while correct == 'N':
+    firstName = str(input("Enter your first name: "))
+    surname = str(input("Enter your surname: "))
+    nickname = str(input("Enter your nickname: "))
+    email = str(input("Enter your email address: "))
+    skill = str(input("Enter your skill level, 'C' for Casual or 'E' for Expert: ")).upper()
+    if skill == 'C':
+        print("")
+        print("First Name =",firstName)
+        print("Surname =",surname)
+        print("Nickname =",nickname)
+        print("Email =",email)
+        print("Skill level = Casual")
+        print("")
+        correct = str(input("Are these details correct?(Y/N): "))
+        print("")
+    elif skill == 'E':
+        print("")
+        print("First Name =",firstName)
+        print("Surname =",surname)
+        print("Nickname =",nickname)
+        print("Email =",email)
+        print("Skill level = Expert")
+        print("")
+        correct = str(input("Are these details correct?(Y/N): "))
+        print("")
+    else:
+        print("Invalid data entry. Please try again")
+        print("")
+        print("First Name =",firstName)
+        print("Surname =",surname)
+        print("Nickname =",nickname)
+        print("Email =",email)
+        print("Skill level = Expert")
+        print("")
+        correct = str(input("Are these details correct?(Y/N): "))
+        print("")
+
+print("Thank you for registering!")
