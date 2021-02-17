@@ -1,0 +1,64 @@
+#values used to calculate fees
+initialFee = 10 
+casual = 20
+expert = 35
+uk = 1
+us = 1.5
+au = 2
+
+
+#welcome message
+print("Welcome!")
+print("")
+
+#calculator subprogram
+
+def calculator():
+    calculateFee = 'Y'
+    while calculateFee == 'Y':
+        email = str(input("Enter your email address: "))
+        skill = str(input("Enter your skill level, 'C' for Casual or 'E' for Expert: ")).upper()
+        country = str(input("Enter your country; 'UK', 'US' or 'AU': ")).upper()
+        print("")
+        if country == 'UK' and skill == 'C':
+            fee = (initialFee + 20) * uk
+            print("Your entry fee is GBP",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        elif country == 'US' and skill == 'C':
+            fee = (initialFee + 20) * us
+            print("Your entry fee is USD",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        elif country == 'AU' and skill == 'C':
+            fee = (initialFee + 20) * au
+            print("Your entry fee is AUD",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        elif country == 'UK' and skill == 'E':
+            fee = (initialFee + 35) * uk
+            print("Your entry fee is GBP",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        elif country == 'US' and skill == 'E':
+            fee = (initialFee + 35) * us
+            print("Your entry fee is USD",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        elif country == 'AU' and skill == 'E':
+            fee = (initialFee + 35) * au
+            print("Your entry fee is AUD",fee)
+            print("")
+            calculateFee = str(input("Do you wish to calculate another fee? (Y/N): ")).upper()
+            print("")
+        else:
+            print("Invalid data entry")
+            print("")
+
+calculator()
+print("Thank you for registering with us!")
