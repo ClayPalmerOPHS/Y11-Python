@@ -1,0 +1,52 @@
+# I dont know what to do 
+
+#menu
+def menu():
+    print("Welcome to the fixture manager")
+    print("")
+    print("Option A: Search for a fixture")
+    print("Option B: Outstanding fixtures")
+    print("Option C: Display leaderboard")
+    print("Enter 'Q' to quit the menu")
+    print("")
+    optionSelected = str(input("Enter your desired option: ")).upper()
+    if optionSelected == 'A':
+        optionA()
+    else:
+        print("That is not an option, please try again")
+        print("")
+        menu()
+    
+#optionA 
+def optionA():
+    fixtureChoice = int(input("Enter the fixture you wish to you view: "))
+    print("")
+    file = open('firesideFixtures.txt')
+    for line in file:
+        x = line.split(",")
+        optionATable()
+   
+
+def optionATable():
+
+    optionA2Darray =    [
+                        ['firesideFixtures.txt'.readline(fixtureChoice[0]),'firesideFixtures.txt'.readline(fixtureChoice[1]),'firesideFixtures.txt'.readline(fixtureChoice[2]),'firesideFixtures.txt'.readline(fixtureChoice[3]),'firesideFixtures.txt'.readline(fixtureChoice[4]),'firesideFixtures.txt'.readline(fixtureChoice[5])]
+                        ]
+
+    print("{0:10}{1:10}{2:10}{3:10}{4:10}{5:10}".format("Fixture Number","Fixture Date","Player 1 Nickname","Player 2 Nickname","Fixture Played","Winning Nickname\n"))
+
+    for eachFixture in optionA2Darray:
+        print("{0:10}{1:10}{2:10}{3:10}{4:10}{5:10}".format(eachFixture[0],eachFixture[1],eachFixture[2],eachFixture[3],eachFixture[4],eachFixture[5]))
+    
+    
+
+
+#running code
+menu()
+
+if optionSelected == 'A':
+    optionA()
+else:
+    print("That is not an option, please try again")
+    print("")
+    menu()
