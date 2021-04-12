@@ -1,3 +1,5 @@
+#WHILE LOOP challenges 07
+
 bottles = 10
 
 while bottles > 0:
