@@ -1,3 +1,5 @@
+#String Slicing Challenges 04
+
 rhyme = str(input("Enter the first line of a nursery rhyme: "))
 length = len(rhyme)
 print("This has",length,"letters in it")
