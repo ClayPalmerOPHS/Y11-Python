@@ -1,3 +1,5 @@
+#Selection004
+
 favColour = str(input("Enter your favourite colour: ")).lower()
 
 if favColour == 'red':
