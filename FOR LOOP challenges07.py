@@ -1,4 +1,4 @@
-#FOR LOOP challenges 7
+#FOR LOOP challenges 07
 
 total = 0
 
