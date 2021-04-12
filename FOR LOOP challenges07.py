@@ -1,3 +1,5 @@
+#FOR LOOP challenges 7
+
 total = 0
 
 for i in range(0,5):
