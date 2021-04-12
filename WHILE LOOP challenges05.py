@@ -1,3 +1,5 @@
+#WHILE LOOP challenges 05
+
 compnum = 50
 guess = int(input("Enter a number: "))
 count = 1
