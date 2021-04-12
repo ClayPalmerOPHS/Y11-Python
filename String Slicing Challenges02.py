@@ -1,3 +1,5 @@
+#String Slicing Challenges 02
+
 forename = str(input("Enter your first name: "))
 surname = str(input("Enter your second name: "))
 
