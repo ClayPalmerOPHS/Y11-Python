@@ -1,3 +1,5 @@
+#FOR LOOP challenges 09
+
 invites = int(input("How many people do you want to invite to your party? "))
 
 if invites < 10:
