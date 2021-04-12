@@ -1,4 +1,4 @@
-#FOR LOOP challenges 6
+#FOR LOOP challenges 06
 
 number = int(input("Enter a number below 50: "))
 end =  number-1
