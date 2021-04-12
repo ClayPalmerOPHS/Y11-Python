@@ -1,3 +1,5 @@
+#WHILE LOOP challenges 02
+
 number = 0
 
 while number <= 5:
