@@ -1,3 +1,5 @@
+#FOR LOOP challenges 03
+
 name = str(input("Enter your name: "))
 number = int(input("Enter a number: "))
 
