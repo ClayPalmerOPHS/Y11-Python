@@ -1,3 +1,5 @@
+##WHILE LOOP challenges 03
+
 number= int(input("Enter a number: "))
 
 total= number
