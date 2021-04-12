@@ -1,3 +1,5 @@
+#WHILE LOOP challenges 01
+
 total = 0
 
 while total <= 50:
