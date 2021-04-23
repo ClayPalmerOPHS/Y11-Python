@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 07
+#Clay Palmer
 
 bottles = 10
 
