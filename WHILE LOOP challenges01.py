@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 01
+#Clay Palmer
 
 total = 0
 
