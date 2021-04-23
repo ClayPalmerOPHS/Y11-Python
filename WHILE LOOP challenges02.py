@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 02
+#Clay Palmer
 
 number = 0
 
