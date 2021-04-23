@@ -1,4 +1,5 @@
-#FOR LOOP challenges 05 Clay Palmer
+#FOR LOOP challenges 05 
+#Clay Palmer
 
 number = int(input("Enter a number between 1 and 12: "))
 
