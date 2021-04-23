@@ -1,4 +1,4 @@
-#FOR LOOP challenges 04
+#FOR LOOP challenges 04 Clay Palmer
 
 name = str(input("Enter your name: "))
 
