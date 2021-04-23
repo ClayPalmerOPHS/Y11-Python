@@ -1,4 +1,5 @@
 #String Slicing Challenges 06
+#Clay Palmer
 
 firstName = str(input("Enter your first name: "))
 firstNameU = (firstName).upper()
