@@ -1,4 +1,5 @@
 #Selection001
+#Clay Palmer
 
 Num1 = int(input("Please enter a number: "))
 Num2 = int(input("Please enter a second number: "))
