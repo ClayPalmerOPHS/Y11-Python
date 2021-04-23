@@ -1,4 +1,5 @@
 #FOR LOOP challenges 09
+#Clay Palmer
 
 invites = int(input("How many people do you want to invite to your party? "))
 
