@@ -1,4 +1,5 @@
 #Selection004
+#Clay Palmer
 
 favColour = str(input("Enter your favourite colour: ")).lower()
 
