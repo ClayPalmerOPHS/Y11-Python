@@ -1,4 +1,5 @@
 #Selection002
+#Clay Palmer
 
 Num = int(input("Please enter a number: "))
 
