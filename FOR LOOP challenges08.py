@@ -1,4 +1,5 @@
 #FOR LOOP challenges 08
+#Clay Palmer
 
 count= str(input("Which way do you want to count? Enter 'u' for up, or enter 'd' for down: "))
 
