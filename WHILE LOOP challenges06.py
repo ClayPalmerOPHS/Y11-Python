@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 06
+#Clay Palmer
 
 number = int(input("Enter a number between 10 and 20: "))
 
