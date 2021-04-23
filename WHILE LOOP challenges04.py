@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 04
+#Clay Palmer
 
 loop = 'Y'
 count = 0
