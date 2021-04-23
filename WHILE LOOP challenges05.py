@@ -1,4 +1,5 @@
 #WHILE LOOP challenges 05
+#Clay Palmer
 
 compnum = 50
 guess = int(input("Enter a number: "))
