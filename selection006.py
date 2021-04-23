@@ -1,4 +1,5 @@
 #Selection006
+#Clay Palmer
 
 age = int(input("Enter your age: "))
 
