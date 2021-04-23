@@ -1,4 +1,5 @@
 #String Slicing Challenges 04
+#Clay Palmer
 
 rhyme = str(input("Enter the first line of a nursery rhyme: "))
 length = len(rhyme)
