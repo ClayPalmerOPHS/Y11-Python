@@ -1,4 +1,5 @@
 #String Slicing Challenges 01
+#Clay Palmer
 
 name = str(input("Enter your name: "))
 length = len(name)
