@@ -1,4 +1,5 @@
 ##WHILE LOOP challenges 03
+#Clay Palmer
 
 number= int(input("Enter a number: "))
 
