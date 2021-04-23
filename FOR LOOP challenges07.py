@@ -1,4 +1,5 @@
 #FOR LOOP challenges 07
+#Clay Palmer
 
 total = 0
 
