@@ -1,4 +1,5 @@
-#FOR LOOP challenges 06
+#FOR LOOP challenges 06 
+#Clay Palmer
 
 number = int(input("Enter a number below 50: "))
 end =  number-1
